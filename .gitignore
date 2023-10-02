@@ -1,5 +1,12 @@
-# Object file
-*.o
+# General
+.DS_Store
+.Trashes
+#node_modules
+/node_modules
+#vs code
+.vscode
 
-# Ada Library Information
-*.ali
+.npm
+#project
+/css/styles.css.map
+.prepros
