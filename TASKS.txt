@@ -1,0 +1,6 @@
+Development Track
+Make Nav & Footer Jacob(Tuesday)
+Make MVC and make pages Kyle (Wed)
+Work on the HTML and CSS body of each PageJacob (first 4 wed) Kyle(last 3 wed)
+Start working on login and alerts and User Feedback Kyle Login (Any time left in the week)
+Make site responsive Jacob (Last parts of the week)

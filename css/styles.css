@@ -1,0 +1,309 @@
+.nav-wrapper {
+  height: 90px;
+  width: 100%;
+  display: contents;
+}
+.nav-wrapper nav {
+  width: 100%;
+  height: 108px;
+  border-bottom: solid 2px white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper nav .branding {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav-wrapper nav .logo {
+  width: 73px;
+  height: 73px;
+  background-image: url(../assets/images/books-stack-of-three.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-wrapper nav .search {
+  width: 604px;
+  height: 44px;
+  background-color: #587C83;
+  display: flex;
+  align-items: center;
+}
+.nav-wrapper nav .search #spyglass {
+  height: 25px;
+  width: 25px;
+  background-image: url(../assets/images/search.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-wrapper nav .search #search-text {
+  font-family: SegNorm;
+  color: #424141;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.nav-wrapper nav .links {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-wrapper nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: SegNorm;
+  display: flex;
+  align-items: center;
+}
+.nav-wrapper nav .links a:hover {
+  font-size: large;
+}
+.nav-wrapper nav .links #act-icon {
+  height: 47px;
+  width: 47px;
+  background-image: url(../assets/images/user.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-wrapper nav .links #cart-icon {
+  height: 52px;
+  width: 52px;
+  background-image: url(../assets/images/shopping-cart.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-mobile-wrapper {
+  visibility: hidden;
+  height: 74px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-mobile-wrapper .branding {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav-mobile-wrapper .logo {
+  width: 73px;
+  height: 73px;
+  background-image: url(../assets/images/books-stack-of-three.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-mobile-wrapper .search {
+  width: 604px;
+  height: 44px;
+  background-color: #587C83;
+  display: flex;
+  align-items: center;
+}
+.nav-mobile-wrapper .search #spyglass {
+  height: 25px;
+  width: 25px;
+  background-image: url(../assets/images/search.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-mobile-wrapper .search #search-text {
+  font-family: SegNorm;
+  color: #424141;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.nav-mobile-wrapper .links {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-mobile-wrapper .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: SegNorm;
+  display: flex;
+  align-items: center;
+}
+.nav-mobile-wrapper .links a:hover {
+  font-size: large;
+}
+.nav-mobile-wrapper .links #act-icon {
+  height: 47px;
+  width: 47px;
+  background-image: url(../assets/images/user.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-mobile-wrapper .links #cart-icon {
+  height: 52px;
+  width: 52px;
+  background-image: url(../assets/images/shopping-cart.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobile-icon {
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  background-image: url(../assets/Logo/IndianaAveLogo-blk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ham-icon {
+  float: right;
+  display: none;
+  cursor: pointer;
+}
+
+#ham-icon div {
+  width: 55px;
+  height: 10px;
+  border-radius: 38px;
+  background-color: black;
+  margin: 10px 0;
+  transition: 0.4s;
+  margin-left: 10px;
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vw;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  background-color: #587C83;
+  z-index: 99;
+}
+.mobile-menu li {
+  list-style-type: none;
+  margin: 20px;
+}
+.mobile-menu a {
+  color: white;
+  font-size: 20px;
+  font-family: LM;
+  text-decoration: none;
+}
+.mobile-menu a:hover {
+  font-family: LMB;
+}
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    display: none;
+  }
+  .nav-wrapper-black {
+    display: none;
+  }
+  .nav-mobile-wrapper .search {
+    width: 298px;
+  }
+}
+@media (max-width: 390px) {
+  .nav-wrapper {
+    display: none;
+  }
+  .nav-wrapper-black {
+    display: none;
+  }
+  .nav-mobile-wrapper .search {
+    width: 142px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-mobile-wrapper {
+    visibility: visible;
+  }
+}
+#ham-icon {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containter {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    height: 399px;
+    width: 100%;
+  }
+  .cen-content {
+    height: 53px;
+    width: 272px;
+    top: 100px;
+    left: 0px;
+  }
+  .cen-content h1 {
+    font-size: 20px;
+  }
+  .login {
+    visibility: hidden;
+  }
+  .hero-images {
+    top: 399px;
+    width: 100px;
+  }
+  .hero-images .hero-text {
+    font-size: 20px;
+    top: 350px;
+    right: 0px;
+    height: 40px;
+    width: 327px;
+    color: white;
+  }
+}
+@font-face {
+  font-family: SegNorm;
+  src: url(../assets/fonts/segoeui.ttf);
+}
+footer {
+  width: 100%;
+  height: 92px;
+  background-color: #587C83;
+}
+
+/*# sourceMappingURL=styles.css.map */
