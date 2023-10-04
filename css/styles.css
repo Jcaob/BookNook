@@ -266,36 +266,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 600px) {
-  .hero {
-    height: 399px;
-    width: 100%;
-  }
-  .cen-content {
-    height: 53px;
-    width: 272px;
-    top: 100px;
-    left: 0px;
-  }
-  .cen-content h1 {
-    font-size: 20px;
-  }
-  .login {
-    visibility: hidden;
-  }
-  .hero-images {
-    top: 399px;
-    width: 100px;
-  }
-  .hero-images .hero-text {
-    font-size: 20px;
-    top: 350px;
-    right: 0px;
-    height: 40px;
-    width: 327px;
-    color: white;
-  }
-}
 @font-face {
   font-family: SegNorm;
   src: url(../assets/fonts/segoeui.ttf);
@@ -349,13 +319,13 @@ footer .footer-icons img {
     font-size: 6px;
   }
   footer .footer-icons img {
-    margin-right: 4px;
     height: 14px;
     width: 14px;
+    margin-right: 12px;
   }
   footer .footer-cc p {
     font-size: 6px;
-    width: 83px;
+    width: 22px;
   }
 }
 
