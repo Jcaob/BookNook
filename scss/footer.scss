@@ -33,7 +33,7 @@ footer{
         img{
             margin-right: 38px;
             height: 44px;
-        width: 44px;
+            width: 44px;
         }
     }
 }
@@ -70,6 +70,12 @@ footer{
 @media screen and (max-width: 390px){
 
     footer{
+        .footer-cc{
+            p{
+                font-size: 6px;
+                width: 22px;
+            }
+        }
         .footer-links{
             a{
                 margin-right: 5px;
@@ -81,18 +87,13 @@ footer{
             img{
                 height: 14px;
                 width: 14px;
-                margin-right: 12px;
+                
             }
 
            
         }
     
-        .footer-cc{
-            p{
-                font-size: 6px;
-                width: 22px;
-            }
-        }
+        
     }
     
 
