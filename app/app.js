@@ -1,25 +1,28 @@
-function toggleMenu(menu){
-    menu.classList.toggle('open');
+import { changePage } from "./model.js";
+
+// function toggleMenu(menu){
+//     menu.classList.toggle('open');
+// }
+
+function route(){
+    let hashTag = window.location.hash;
+    let pageID = hashTag.replace("#", "");
+    $("#bread-crumb").html(``);
+    changePage(hashTag, pageID);
+    
 }
 
-/* The following code is for the module */
+function initListeners(){
 
-var pageName = "home"; // Define pageName globally
-
-function addPageContent(pageName) {
-    let pageContentName = pageName + "Content";
-    $(".app").html(window[pageContentName]); // Access the variable using window[pageContentName]
 }
 
-addPageContent("home");
-
-//addPageContent(pageName); // Pass the pageName as an argument
-
-function route() {
-    hashTag = window.location.hash;
-    console.log(hashTag);
+function initSite(){
+     $(window).on("hashchange", route)
+     route();
 }
 
-$(window).on('hashchange', route);
-
-/* End of code for the module */
+$(document).ready(function () {
+    
+    initSite()
+    
+}   );
