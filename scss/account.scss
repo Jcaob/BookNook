@@ -1,0 +1,45 @@
+.account-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    .logIn{
+        display: flex;
+        flex-direction: column;
+        margin-left: 385px;
+    }
+
+    .signUp{
+        margin-right: 395px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        margin-top: 45px;
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: black;
+        font-family: SegNorm;
+        
+      }
+
+      #submit{
+        margin-top: 44px;
+        margin-bottom: 320px;
+        height: 45px;
+        width: 170px;
+        background-color: #587C83;
+        border: none;
+        color: white;
+        font-family: SegNorm;
+      }
+
+      .header{
+        font-family: SegLight;
+        font-size: 26px;
+      }
+
+      .login-des{
+        font-family: SegLight;
+      }
+}

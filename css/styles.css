@@ -265,6 +265,10 @@ body {
   font-family: SegNorm;
   src: url(../assets/fonts/segoeui.ttf);
 }
+@font-face {
+  font-family: SegLight;
+  src: url(../assets/fonts/segoeuisl.ttf);
+}
 footer {
   width: 100%;
   height: 120px;
@@ -543,6 +547,45 @@ footer .footer-icons .icon {
   align-items: center;
   height: 68px;
   width: 222px;
+}
+
+.account-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.account-wrapper .logIn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 385px;
+}
+.account-wrapper .signUp {
+  margin-right: 395px;
+  display: flex;
+  flex-direction: column;
+}
+.account-wrapper .input {
+  margin-top: 45px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  font-family: SegNorm;
+}
+.account-wrapper #submit {
+  margin-top: 44px;
+  margin-bottom: 320px;
+  height: 45px;
+  width: 170px;
+  background-color: #587C83;
+  border: none;
+  color: white;
+  font-family: SegNorm;
+}
+.account-wrapper .header {
+  font-family: SegLight;
+  font-size: 26px;
+}
+.account-wrapper .login-des {
+  font-family: SegLight;
 }
 
 /*# sourceMappingURL=styles.css.map */
