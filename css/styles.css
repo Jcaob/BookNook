@@ -254,16 +254,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .containter {
   display: flex;
   justify-content: center;
-}
-
-.hero {
-  width: 100%;
 }
 
 @font-face {
@@ -326,6 +321,109 @@ footer .footer-icons img {
     height: 14px;
     width: 14px;
   }
+}
+.hero-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-wrapper .hero {
+  width: 1500px;
+  height: 530px;
+  background-image: linear-gradient(to bottom, rgba(88, 124, 131, 0.5), rgba(88, 124, 131, 0.5)), url(../assets/images/home-hero.jpg);
+  background-color: rgba(88, 124, 131, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.hero-wrapper .hero .hero-text {
+  margin-right: 283px;
+  color: white;
+  font-family: SegNorm;
+  font-weight: bold;
+}
+.hero-wrapper .hero .hero-text-p {
+  margin-right: 305px;
+  color: white;
+  font-family: SegNorm;
+  font-weight: bold;
+}
+
+.home-books {
+  margin-top: 176px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 188px;
+}
+.home-books .home-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-books .home-card .home-card-img {
+  width: 306px;
+  height: 491px;
+}
+.home-books .home-card .home-card-text {
+  margin-top: 49px;
+  width: 413px;
+  text-align: center;
+}
+.home-books .home-card .home-card-price {
+  margin-top: 20px;
+  font-family: SegNorm;
+  font-weight: bold;
+}
+.home-books .home-card .add-cart-button {
+  margin-top: 46px;
+  background-color: white;
+  outline: 1px;
+  height: 68px;
+  width: 222px;
+}
+
+.about-structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 213px;
+}
+.about-structure .about-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.about-structure .about-wrapper .about-img {
+  width: 393px;
+  height: 587px;
+}
+.about-structure .about-wrapper .about-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+}
+.about-structure .about-wrapper .about-des .about-title {
+  font-family: SegNorm;
+  font-weight: bold;
+}
+.about-structure .about-wrapper .about-des .about-title-found {
+  margin-top: 40px;
+  font-family: SegNorm;
+  font-size: 26px;
+}
+.about-structure .about-wrapper .about-des .about-para {
+  margin-top: 61px;
+  font-family: SegNorm;
+  font-size: 16;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
