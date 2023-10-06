@@ -276,6 +276,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 200px;
 }
 footer .footer-cc {
   display: flex;
@@ -698,7 +699,7 @@ footer .footer-icons .icon {
 }
 .account-wrapper #submit {
   margin-top: 44px;
-  margin-bottom: 320px;
+  margin-bottom: 220px;
   height: 45px;
   width: 170px;
   background-color: #587C83;
@@ -712,6 +713,44 @@ footer .footer-icons .icon {
 }
 .account-wrapper .login-des {
   font-family: SegLight;
+}
+
+.cart-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cart-wrapper .cart-card {
+  padding-bottom: 97px;
+  padding-top: 97px;
+  border-bottom-style: solid;
+}
+.cart-wrapper .cart-card .cart-holder {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 117px;
+}
+.cart-wrapper .cart-card .cart-holder .cart-img {
+  width: 205px;
+  height: 317px;
+}
+.cart-wrapper .cart-card .cart-holder .cart-des {
+  display: flex;
+  flex-direction: column;
+}
+.cart-wrapper .cart-card .cart-holder .cart-des .cart-title {
+  font-family: SegNorm;
+}
+.cart-wrapper .cart-card .cart-holder .cart-des .cart-price {
+  font-family: SegNorm;
+  margin-top: 17px;
+}
+.cart-wrapper .cart-card .cart-holder .cart-des .cart-stock {
+  margin-top: 5px;
+  font-family: SegNorm;
+}
+.cart-wrapper .cart-card .cart-holder .cart-des .cart-detail {
+  margin-top: 43px;
 }
 
 /*# sourceMappingURL=styles.css.map */
