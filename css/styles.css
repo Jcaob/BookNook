@@ -6,7 +6,7 @@
 .nav-wrapper nav {
   width: 100%;
   height: 108px;
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,7 +274,11 @@ footer {
   align-items: center;
 }
 footer .footer-cc {
-  width: 221;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+  height: 120px;
   color: white;
 }
 footer .footer-links {
@@ -289,7 +293,7 @@ footer .footer-links a {
 footer .footer-icons {
   display: flex;
 }
-footer .footer-icons img {
+footer .footer-icons .icon {
   margin-right: 38px;
   height: 44px;
   width: 44px;
@@ -477,6 +481,66 @@ footer .footer-icons img {
   margin-top: 46px;
   background-color: white;
   outline: 1px;
+  height: 68px;
+  width: 222px;
+}
+
+.blog-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.blog-wrapper .blog {
+  margin-top: 125px;
+  width: 1464px;
+  height: 463px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-wrapper .blog .blog-img-wide {
+  width: 622px;
+  height: 100%;
+}
+.blog-wrapper .blog .blog-imgs {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.blog-wrapper .blog .blog-imgs .blog-img {
+  margin: 74px;
+  height: 380px;
+  width: 250px;
+}
+.blog-wrapper .blog .blog-des {
+  margin-right: 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-wrapper .blog .blog-des .blog-title {
+  color: white;
+  font-family: SegNorm;
+}
+.blog-wrapper .blog .blog-des .blog-para {
+  margin-top: 59px;
+  color: white;
+  font-family: SegNorm;
+  width: 413px;
+  height: 153px;
+}
+.blog-wrapper .blog .blog-des a {
+  border-style: solid;
+  text-decoration: none;
+  color: white;
+}
+.blog-wrapper .blog .blog-des a .blog-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 68px;
   width: 222px;
 }
