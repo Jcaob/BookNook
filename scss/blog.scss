@@ -5,6 +5,75 @@
     align-items: center;
     margin-bottom: 140px;
 
+    .blog-hero{
+        width: 1464px;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/february-favorites-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+        }
+    }
+
+    .blog-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+
+        .blog-book-card{
+            display: flex;
+            margin-top: 140px;
+
+            .blog-book-img{
+                width: 250px;
+                height: 380px;
+            }
+
+            .blog-book-des{
+                display: flex;
+                flex-direction: column; 
+                margin-left: 35px;
+
+                .blog-book-title{
+                    margin-bottom: 58px;
+                    font-family: SegNorm;
+                }
+
+                .blog-book-para{
+                    width: 1297px ;
+                    font-family: SegNorm;
+                }
+            }
+        }
+    }
+
     .blog{
         margin-top: 125px;
         width: 1464px;
