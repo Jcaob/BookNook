@@ -267,7 +267,7 @@ body {
 }
 footer {
   width: 100%;
-  height: 92px;
+  height: 120px;
   background-color: #587C83;
   display: flex;
   justify-content: space-evenly;
@@ -438,6 +438,10 @@ footer .footer-icons img {
   flex-direction: column;
   margin-bottom: 305px;
 }
+.book-wrapper .catagory .catagory-title {
+  margin-bottom: 40px;
+  font-family: SegNorm;
+}
 .book-wrapper .catagory .catagory-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -452,7 +456,7 @@ footer .footer-icons img {
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-img-long {
   width: 206px;
-  height: 311px;
+  height: 300;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-des {
   margin-left: 54px;
