@@ -338,7 +338,7 @@ footer .footer-icons .icon {
   align-items: center;
 }
 .hero-wrapper .hero {
-  width: 1500px;
+  width: 90%;
   height: 530px;
   background-image: linear-gradient(to bottom, rgba(88, 124, 131, 0.5), rgba(88, 124, 131, 0.5)), url(../assets/images/home-hero.jpg);
   background-color: rgba(88, 124, 131, 0.7);
@@ -498,7 +498,7 @@ footer .footer-icons .icon {
   margin-bottom: 140px;
 }
 .blog-wrapper .blog-hero {
-  width: 1464px;
+  width: 90%;
   height: 463px;
   background-image: linear-gradient(to bottom, rgba(88, 124, 131, 0.5), rgba(88, 124, 131, 0.5)), url(../assets/images/february-favorites-hero.jpg);
   background-color: rgba(88, 124, 131, 0.7);
@@ -604,7 +604,7 @@ footer .footer-icons .icon {
   font-family: SegNorm;
 }
 .blog-wrapper .blog-info .blog-book-card .blog-book-des .blog-book-para {
-  width: 1297px;
+  width: 90%;
   font-family: SegNorm;
 }
 .blog-wrapper .blog2-info {
