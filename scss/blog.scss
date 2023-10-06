@@ -42,6 +42,80 @@
         }
     }
 
+    .blog-hero2{
+        width: 1464px;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/book-club-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+        }
+    }
+
+    .blog-hero3{
+        width: 1464px;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/eread-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+        }
+    }
+
     .blog-info{
         display: flex;
         flex-direction: column;
@@ -70,6 +144,27 @@
                     width: 1297px ;
                     font-family: SegNorm;
                 }
+            }
+        }
+    }
+
+    .blog2-info{
+        display: flex;
+        margin-top: 105px;
+
+        .blog-main-img{
+            width: 622px;
+            height: 463px;
+           
+        }
+
+        .blog2-des{
+            display: flex;
+            flex-direction: column;
+            margin-left: 39px;
+
+            .blog2-para{
+                width: 805px;
             }
         }
     }
