@@ -11,7 +11,7 @@ export function changePage(hashTag, pageName){
         $.get(`pages/${pageName}.html`, (data) =>{
             if (data){
                 $("#app").html(data);
-                console.log(data);
+                
             }else{
                 alert("no")
             }

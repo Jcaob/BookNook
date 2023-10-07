@@ -23,7 +23,7 @@
         
       }
 
-      #submit{
+      .submit{
         margin-top: 44px;
         margin-bottom: 220px;
         height: 45px;
@@ -32,6 +32,7 @@
         border: none;
         color: white;
         font-family: SegNorm;
+        cursor: pointer;
       }
 
       .header{
@@ -42,4 +43,32 @@
       .login-des{
         font-family: SegLight;
       }
+}
+
+@media (max-width: 768px){
+  .account-wrapper{
+    flex-direction: column;
+    align-items: center;
+
+    .logIn{
+      margin-left: 0;
+    }
+
+    .signUp{
+      margin-right: 0;
+    }
+
+    .submit{
+      margin-bottom: 100px;
+    }
+
+    .header{
+      margin-top: 100px;
+    }
+  }
+}
+@media (max-width: 390px){
+
+
+
 }

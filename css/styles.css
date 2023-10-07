@@ -1,10 +1,10 @@
 .nav-wrapper {
   height: 90px;
-  width: 100%;
+  width: 100vw;
   display: contents;
 }
 .nav-wrapper nav {
-  width: 100%;
+  width: 100vw;
   height: 108px;
   border-bottom: solid 2px black;
   display: flex;
@@ -25,7 +25,7 @@
   background-size: cover;
 }
 .nav-wrapper nav .search {
-  width: 604px;
+  width: 70%;
   height: 44px;
   background-color: #587C83;
   display: flex;
@@ -46,7 +46,7 @@
   margin-left: 10px;
 }
 .nav-wrapper nav .links {
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -398,6 +398,14 @@ footer .footer-icons .icon {
   width: 222px;
 }
 
+@media (max-width: 768px) {
+  .home-books {
+    flex-direction: column;
+  }
+  .home-books .home-card .add-cart-button {
+    margin-bottom: 71px;
+  }
+}
 .about-structure {
   display: flex;
   justify-content: center;
@@ -435,6 +443,18 @@ footer .footer-icons .icon {
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .about-structure .about-wrapper .about-img {
+    height: 343px;
+    width: 208px;
+  }
+  .about-structure .about-wrapper .about-des .about-title {
+    font-size: 20px;
+  }
+  .about-structure .about-wrapper .about-des .about-title-found {
+    font-size: 16px;
+  }
+}
 .book-wrapper {
   width: 100%;
   display: flex;
@@ -460,34 +480,39 @@ footer .footer-icons .icon {
   justify-content: space-evenly;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-img {
-  width: 223px;
+  width: 50%;
   height: 246px;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-img-long {
   width: 206px;
-  height: 300;
+  height: 300px;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-des {
   margin-left: 54px;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-des .book-para {
-  width: 280px;
+  width: 100%;
   height: 105px;
   font-family: SegNorm;
   font-size: 16px;
 }
 .book-wrapper .catagory .catagory-wrapper .book-card .book-des .book-price {
-  margin-top: 38px;
+  margin-top: 70px;
   font-family: SegNorm;
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .book-wrapper .catagory .catagory-wrapper {
+    flex-direction: column;
+  }
+}
 .add-cart-button {
   margin-top: 46px;
   background-color: white;
   outline: 1px;
   height: 68px;
-  width: 222px;
+  width: 50%;
 }
 
 .blog-wrapper {
@@ -523,10 +548,11 @@ footer .footer-icons .icon {
 .blog-wrapper .blog-hero .blog-hero-para {
   margin-top: 58px;
   color: white;
+  width: 100%;
   font-family: SegNorm;
 }
 .blog-wrapper .blog-hero2 {
-  width: 1464px;
+  width: 90%;
   height: 463px;
   background-image: linear-gradient(to bottom, rgba(88, 124, 131, 0.5), rgba(88, 124, 131, 0.5)), url(../assets/images/book-club-hero.jpg);
   background-color: rgba(88, 124, 131, 0.7);
@@ -554,7 +580,7 @@ footer .footer-icons .icon {
   font-family: SegNorm;
 }
 .blog-wrapper .blog-hero3 {
-  width: 1464px;
+  width: 90%;
   height: 463px;
   background-image: linear-gradient(to bottom, rgba(88, 124, 131, 0.5), rgba(88, 124, 131, 0.5)), url(../assets/images/eread-hero.jpg);
   background-color: rgba(88, 124, 131, 0.7);
@@ -625,11 +651,11 @@ footer .footer-icons .icon {
 }
 .blog-wrapper .blog {
   margin-top: 125px;
-  width: 1464px;
+  width: 90%;
   height: 463px;
   background-color: #587C83;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .blog-wrapper .blog .blog-img-wide {
   width: 622px;
@@ -643,14 +669,15 @@ footer .footer-icons .icon {
 .blog-wrapper .blog .blog-imgs .blog-img {
   margin: 74px;
   height: 380px;
-  width: 250px;
+  width: 70%;
 }
 .blog-wrapper .blog .blog-des {
-  margin-right: 156px;
+  margin-left: 156px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 60%;
 }
 .blog-wrapper .blog .blog-des .blog-title {
   color: white;
@@ -660,7 +687,7 @@ footer .footer-icons .icon {
   margin-top: 59px;
   color: white;
   font-family: SegNorm;
-  width: 413px;
+  width: 70%;
   height: 153px;
 }
 .blog-wrapper .blog .blog-des a {
@@ -676,6 +703,26 @@ footer .footer-icons .icon {
   width: 222px;
 }
 
+@media (max-width: 768px) {
+  .blog-wrapper .blog .blog-img-wide {
+    width: 250px;
+  }
+  .blog-wrapper .blog .blog-imgs .blog-img {
+    margin-left: 0px;
+    width: 65%;
+    height: 60%;
+  }
+  .blog-wrapper .blog .blog-des {
+    margin-right: 30px;
+    width: 100%;
+  }
+  .blog-wrapper .blog .blog-des .blog-title {
+    font-size: 20px;
+  }
+  .blog-wrapper .blog .blog-des .blog-para {
+    font-size: 12px;
+  }
+}
 .account-wrapper {
   display: flex;
   justify-content: space-between;
@@ -697,7 +744,7 @@ footer .footer-icons .icon {
   border-color: black;
   font-family: SegNorm;
 }
-.account-wrapper #submit {
+.account-wrapper .submit {
   margin-top: 44px;
   margin-bottom: 220px;
   height: 45px;
@@ -706,6 +753,7 @@ footer .footer-icons .icon {
   border: none;
   color: white;
   font-family: SegNorm;
+  cursor: pointer;
 }
 .account-wrapper .header {
   font-family: SegLight;
@@ -715,6 +763,24 @@ footer .footer-icons .icon {
   font-family: SegLight;
 }
 
+@media (max-width: 768px) {
+  .account-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .account-wrapper .logIn {
+    margin-left: 0;
+  }
+  .account-wrapper .signUp {
+    margin-right: 0;
+  }
+  .account-wrapper .submit {
+    margin-bottom: 100px;
+  }
+  .account-wrapper .header {
+    margin-top: 100px;
+  }
+}
 .cart-wrapper {
   width: 100%;
   display: flex;
@@ -751,6 +817,17 @@ footer .footer-icons .icon {
 }
 .cart-wrapper .cart-card .cart-holder .cart-des .cart-detail {
   margin-top: 43px;
+}
+
+.log-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 500px;
+}
+.log-wrapper .log-title {
+  font-family: SegNorm;
 }
 
 /*# sourceMappingURL=styles.css.map */

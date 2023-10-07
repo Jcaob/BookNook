@@ -38,12 +38,13 @@
         .blog-hero-para{
             margin-top: 58px;
             color: white;
+            width: 100%;
             font-family: SegNorm;
         }
     }
 
     .blog-hero2{
-        width: 1464px;
+        width: 90%;
         height: 463px;
         background-image: linear-gradient(
             to bottom, 
@@ -80,7 +81,7 @@
     }
 
     .blog-hero3{
-        width: 1464px;
+        width: 90%;
         height: 463px;
         background-image: linear-gradient(
             to bottom, 
@@ -171,11 +172,11 @@
 
     .blog{
         margin-top: 125px;
-        width: 1464px;
+        width: 90%;
         height: 463px;
         background-color: #587C83;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         .blog-img-wide{
             width: 622px;
@@ -190,16 +191,18 @@
             .blog-img{
                 margin: 74px;
                 height: 380px;
-                width: 250px;
+                width: 70%;
             }
         }
 
         .blog-des{
-            margin-right: 156px;
+            margin-left: 156px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            width: 60%;
             .blog-title{
                 color: white;
                 font-family: SegNorm;
@@ -208,7 +211,7 @@
                 margin-top: 59px;
                 color: white;
                 font-family: SegNorm;
-                width: 413px;
+                width: 70%;
                 height: 153px;
             }
 
@@ -229,3 +232,42 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .blog-wrapper{
+        .blog{
+
+            .blog-img-wide{
+                width: 250px;
+            }
+            
+            .blog-imgs{
+                
+                .blog-img{
+                    margin-left: 0px;
+                    width: 65%;
+                    height: 60%;
+                }
+
+
+            }
+
+            .blog-des{
+                margin-right: 30px;
+                width: 100%;
+                .blog-title{
+                    font-size: 20px;
+                }
+
+                .blog-para{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+ @media (max-width: 390px){
+
+
+
+ }

@@ -1,11 +1,11 @@
 .nav-wrapper{
     height: 90px;
-    width: 100%;
+    width: 100vw;
     display:contents;
     
     
     nav{
-    width: 100%;
+    width: 100vw;
     height: 108px;
     border-bottom: solid 2px black;
     display: flex;
@@ -29,7 +29,7 @@
     }
 
     .search{
-        width: 604px;
+        width: 70%;
         height: 44px;
         background-color: #587C83;
         display: flex;
@@ -52,7 +52,7 @@
 
 
     .links{
-        width: 600px;
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
         a{

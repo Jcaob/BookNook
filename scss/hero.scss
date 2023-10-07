@@ -75,3 +75,23 @@
         }
     }
 }
+
+
+@media (max-width: 768px){
+    
+    .home-books {
+        flex-direction: column;
+
+        .home-card{
+
+            .add-cart-button{
+                margin-bottom: 71px
+            }
+        }
+    }
+}
+@media (max-width: 390px){
+    
+    
+    
+}
