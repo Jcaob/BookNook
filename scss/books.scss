@@ -62,7 +62,19 @@
 }
  @media (max-width: 390px){
 
-
+    .book-wrapper{
+        .catagory{
+            .catagory-wrapper{
+                .book-card{
+                    .book-des{
+                        .book-para{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
  }
  

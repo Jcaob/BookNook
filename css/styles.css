@@ -406,6 +406,26 @@ footer .footer-icons .icon {
     margin-bottom: 71px;
   }
 }
+@media (max-width: 390px) {
+  .hero-wrapper .hero {
+    height: 193px;
+    background-size: 30%;
+    background-position: 25%;
+    background-image: url(../assets/images/home-hero.jpg);
+    background-color: #587C83;
+  }
+  .hero-wrapper .hero .hero-text {
+    margin-right: 0;
+    font-size: 12px;
+  }
+  .hero-wrapper .hero .hero-text-p {
+    margin-right: 0;
+    font-size: 12px;
+  }
+  .home-books .home-card .home-card-text {
+    width: 90%;
+  }
+}
 .about-structure {
   display: flex;
   justify-content: center;
@@ -505,6 +525,11 @@ footer .footer-icons .icon {
 @media (max-width: 768px) {
   .book-wrapper .catagory .catagory-wrapper {
     flex-direction: column;
+  }
+}
+@media (max-width: 390px) {
+  .book-wrapper .catagory .catagory-wrapper .book-card .book-des .book-para {
+    font-size: 12px;
   }
 }
 .add-cart-button {
@@ -638,7 +663,7 @@ footer .footer-icons .icon {
   margin-top: 105px;
 }
 .blog-wrapper .blog2-info .blog-main-img {
-  width: 622px;
+  width: 50%;
   height: 463px;
 }
 .blog-wrapper .blog2-info .blog2-des {
@@ -647,7 +672,7 @@ footer .footer-icons .icon {
   margin-left: 39px;
 }
 .blog-wrapper .blog2-info .blog2-des .blog2-para {
-  width: 805px;
+  width: 100%;
 }
 .blog-wrapper .blog {
   margin-top: 125px;
@@ -712,6 +737,9 @@ footer .footer-icons .icon {
     width: 65%;
     height: 60%;
   }
+  .blog-wrapper .blog .blog2-info .blog-main-img {
+    width: 50%;
+  }
   .blog-wrapper .blog .blog-des {
     margin-right: 30px;
     width: 100%;
@@ -720,6 +748,96 @@ footer .footer-icons .icon {
     font-size: 20px;
   }
   .blog-wrapper .blog .blog-des .blog-para {
+    font-size: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .blog-wrapper .blog {
+    width: 100%;
+  }
+  .blog-wrapper .blog .blog-img-wide {
+    width: 200px;
+  }
+  .blog-wrapper .blog .blog-imgs .blog-img {
+    margin: 0;
+    margin-left: 5px;
+    width: 100px;
+    height: 150px;
+  }
+  .blog-wrapper .blog .blog2-info .blog-main-img {
+    width: 50%;
+  }
+  .blog-wrapper .blog .blog-des {
+    margin-left: 10px;
+    width: 100%;
+  }
+  .blog-wrapper .blog .blog-des .blog-title {
+    font-size: 12px;
+    width: 100%;
+  }
+  .blog-wrapper .blog .blog-des .blog-para {
+    font-size: 10px;
+    width: 100%;
+  }
+  .blog-wrapper .blog .blog-des a .blog-button {
+    width: 50%;
+  }
+  .blog-wrapper .blog-hero {
+    height: 119px;
+  }
+  .blog-wrapper .blog-hero .blog-hero-title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .blog-wrapper .blog-hero .blog-hero-para {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-hero .blog-hero-title-small {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-hero2 {
+    height: 119px;
+  }
+  .blog-wrapper .blog-hero2 .blog-hero-title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .blog-wrapper .blog-hero2 .blog-hero-para {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-hero2 .blog-hero-title-small {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-hero3 {
+    height: 119px;
+  }
+  .blog-wrapper .blog-hero3 .blog-hero-title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .blog-wrapper .blog-hero3 .blog-hero-para {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-hero3 .blog-hero-title-small {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .blog-wrapper .blog-info {
+    margin-top: 20px;
+  }
+  .blog-wrapper .blog-info .blog-book-card .blog-book-img {
+    width: 100px;
+    height: 150px;
+  }
+  .blog-wrapper .blog-info .blog-book-card .blog-book-des .blog-book-title {
+    font-size: 16px;
+  }
+  .blog-wrapper .blog-info .blog-book-card .blog-book-des .blog-book-para {
     font-size: 12px;
   }
 }
@@ -819,6 +937,17 @@ footer .footer-icons .icon {
   margin-top: 43px;
 }
 
+@media (max-width: 768px) {
+  .cart-wrapper .cart-card {
+    margin-left: 0;
+  }
+  .cart-wrapper .cart-card .cart-holder {
+    margin-left: 0;
+  }
+  .cart-wrapper .cart-card .cart-holder .cart-des .cart-title {
+    font-size: 16px;
+  }
+}
 .log-wrapper {
   display: flex;
   justify-content: center;

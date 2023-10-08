@@ -47,3 +47,24 @@
         }
     }
 }
+
+@media (max-width: 768px){
+        .cart-wrapper{
+            .cart-card{
+                margin-left: 0;
+                .cart-holder{
+                    margin-left: 0;
+                    .cart-des{
+                        .cart-title{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+}
+ @media (max-width: 390px){
+
+    
+
+ }
