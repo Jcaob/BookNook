@@ -1,0 +1,121 @@
+.hero-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero{
+        width: 90%;
+        height: 530px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/home-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+
+        .hero-text{
+            margin-right: 283px;
+            color: white;
+            font-family: SegNorm;
+            font-weight: bold;
+        }
+        .hero-text-p{
+            margin-right: 305px;
+            color: white;
+            font-family: SegNorm;
+            font-weight: bold;
+        }
+
+    }
+}
+
+.home-books{
+    margin-top: 176px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 188px ;
+    .home-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .home-card-img{
+            width: 306px;
+            height: 491px;
+        }
+
+        .home-card-text{
+            margin-top: 49px;
+            width: 413px;
+            text-align: center;
+        }
+
+        .home-card-price{
+            margin-top: 20px;
+            font-family: SegNorm; 
+            font-weight: bold;
+        }
+
+        .add-cart-button{
+            margin-top: 46px;
+            background-color: white;
+            outline: 1px;
+            height: 68px;
+            width: 222px;
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    
+    .home-books {
+        flex-direction: column;
+
+        .home-card{
+
+            .add-cart-button{
+                margin-bottom: 71px
+            }
+        }
+    }
+}
+@media (max-width: 391px){
+    
+    .hero-wrapper{
+        .hero{
+            height: 193px;
+            background-size: 30%;
+            background-position: 25%;
+            background-image: url(../assets/images/home-hero.jpg);
+            background-color: #587C83;
+            .hero-text{
+                margin-right: 0;
+                font-size: 12px;
+            }
+
+            .hero-text-p{
+                margin-right: 0;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .home-books{
+        .home-card{
+            .home-card-text{
+                width: 90%;
+            }
+        }
+    }
+}

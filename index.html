@@ -22,15 +22,15 @@
               <div id="search-text">Search...</div>
             </div>
             <div class="links">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Books</a>
-              <a href="#">Blog</a>
-              <a href="#"
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#books">Books</a>
+              <a href="#blog-home">Blog</a>
+              <a href="#account"
                 >Account
                 <div id="act-icon"></div
               ></a>
-              <a href="#"
+              <a href="#cart"
                 >Cart
                 <div id="cart-icon"></div
               ></a>
@@ -47,45 +47,46 @@
             <div id="spyglass"></div>
             <div id="search-text">Search...</div>
           </div>
-          <div id="ham-icon" onclick="toggleMenu(this)">
+          <div id="ham-icon" onclick="toggleMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
             <ul class="mobile-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Books</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Cart</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#books">Books</a></li>
+              <li><a href="#blog-home">Blog</a></li>
+              <li><a href="#account">Account</a></li>
+              <li><a href="#cart">Cart</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
- <div id="content">
-<!-- Inside here is where the content is supposed to go-->
-</div>
+    <div id="app"></div>
 
     <footer>
       <div class="footer-cc">
         <p>Copyright 2022, The BookNook</p>
       </div>
       <div class="footer-links">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Books</a>
-        <a href="">Blog</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#books">Books</a>
+        <a href="#blog-home">Blog</a>
       </div>
       <div class="footer-icons">
         <img src="./assets/logos/white/facebook_w.png" alt="facebook_w" class="icon"/>
-        <img src="./assets/logos/white/instagram_w.png" alt="instagram_w" />
-        <img src="./assets/logos/white/twitter_w.png" alt="twitter_w" />
+        <img src="./assets/logos/white/instagram_w.png" alt="instagram_w" class="icon"/>
+        <img src="./assets/logos/white/twitter_w.png" alt="twitter_w" class="icon"/>
       </div>
     </footer>
-
+   
     <script src="lib/jquery-3.7.1.min.js"></script>
-    <script src="app/app.js"></script>
+    <script type="module" src="./app/model.js"></script>
+    <script  src="./app/menu.js"></script>
+    <script src="./app/login.js"></script>
+    <script type="module" src="./app/app.js"></script>
   </body>
 </html>

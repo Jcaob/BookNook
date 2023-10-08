@@ -1,0 +1,400 @@
+.blog-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+
+    .blog-hero{
+        width: 90%;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/february-favorites-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            width: 100%;
+            font-family: SegNorm;
+        }
+    }
+
+    .blog-hero2{
+        width: 90%;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/book-club-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+        }
+    }
+
+    .blog-hero3{
+        width: 90%;
+        height: 463px;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(88, 124, 131, 0.5),
+            rgba(88, 124, 131, 0.5)
+            ),url(../assets/images/eread-hero.jpg);
+        background-color: rgb(88, 124, 131, 0.7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .blog-hero-title{
+            color: white;
+            font-family: SegNorm;
+
+        }
+
+        .blog-hero-title-small{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .blog-hero-para{
+            margin-top: 58px;
+            color: white;
+            font-family: SegNorm;
+        }
+    }
+
+    .blog-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+
+        .blog-book-card{
+            display: flex;
+            margin-top: 140px;
+
+            .blog-book-img{
+                width: 250px;
+                height: 380px;
+            }
+
+            .blog-book-des{
+                display: flex;
+                flex-direction: column; 
+                margin-left: 35px;
+
+                .blog-book-title{
+                    margin-bottom: 58px;
+                    font-family: SegNorm;
+                }
+
+                .blog-book-para{
+                    width: 90%;                    
+                    font-family: SegNorm;
+                }
+            }
+        }
+    }
+
+    .blog2-info{
+        display: flex;
+        margin-top: 105px;
+
+        .blog-main-img{
+            width: 50%;
+            height: 463px;
+           
+        }
+
+        .blog2-des{
+            display: flex;
+            flex-direction: column;
+            margin-left: 39px;
+
+            .blog2-para{
+                width: 100%;
+            }
+        }
+    }
+
+    .blog{
+        margin-top: 125px;
+        width: 90%;
+        height: 463px;
+        background-color: #587C83;
+        display: flex;
+        justify-content: space-evenly;
+
+        .blog-img-wide{
+            width: 622px;
+            height: 100%;
+            
+        }
+        .blog-imgs{
+            height: 100%;
+            display: flex;
+            
+            align-items: center;
+            .blog-img{
+                margin: 74px;
+                height: 380px;
+                width: 70%;
+            }
+        }
+
+        .blog-des{
+            margin-left: 156px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 60%;
+            .blog-title{
+                color: white;
+                font-family: SegNorm;
+            }
+            .blog-para{
+                margin-top: 59px;
+                color: white;
+                font-family: SegNorm;
+                width: 70%;
+                height: 153px;
+            }
+
+            a{
+                border-style: solid;
+                text-decoration: none;
+                color: white;
+                .blog-button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 68px;
+                width: 222px;  
+            }
+            }
+
+            
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .blog-wrapper{
+        .blog{
+
+            .blog-img-wide{
+                width: 250px;
+            }
+            
+            .blog-imgs{
+                
+                .blog-img{
+                    margin-left: 0px;
+                    width: 65%;
+                    height: 60%;
+                }
+
+
+            }
+
+            .blog2-info{
+                .blog-main-img{
+                    width: 50%;
+                }
+            }
+
+            .blog-des{
+                margin-right: 30px;
+                width: 100%;
+                .blog-title{
+                    font-size: 20px;
+                }
+
+                .blog-para{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+ @media (max-width: 390px){
+    .blog-wrapper{
+        .blog{
+        width: 100% ;
+        .blog-img-wide{
+            width: 200px;
+        }
+        
+        .blog-imgs{
+            
+            .blog-img{
+                margin: 0;
+                margin-left: 5px;
+                width: 100px;
+                height: 150px;
+            }
+
+           
+
+        }
+
+        .blog2-info{
+            .blog-main-img{
+                width: 50%;
+            }
+        }
+
+        .blog-des{
+            margin-left: 10px;
+            width: 100%;
+            .blog-title{
+                font-size: 12px;
+                width: 100%;
+            }
+
+            .blog-para{
+                font-size: 10px;
+                width: 100%;
+            }
+
+            a{
+                .blog-button{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    }
+
+    .blog-wrapper{
+        .blog-hero{
+            height: 119px;
+            .blog-hero-title{
+                font-size: 16px;
+                margin-top: 0;
+            }
+
+            .blog-hero-para{
+                font-size: 12px;
+                margin-top: 5px;
+            }
+
+            .blog-hero-title-small{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+
+        .blog-hero2{
+            height: 119px;
+            .blog-hero-title{
+                font-size: 16px;
+                margin-top: 0;
+            }
+
+            .blog-hero-para{
+                font-size: 12px;
+                margin-top: 5px;
+            }
+
+            .blog-hero-title-small{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+
+        .blog-hero3{
+            height: 119px;
+            .blog-hero-title{
+                font-size: 16px;
+                margin-top: 0;
+            }
+
+            .blog-hero-para{
+                font-size: 12px;
+                margin-top: 5px;
+            }
+
+            .blog-hero-title-small{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+
+        .blog-info{
+            margin-top: 20px;
+            .blog-book-card{
+                .blog-book-img{
+                    width: 100px;
+                    height: 150px;
+                }
+
+                .blog-book-des{
+                    .blog-book-title{
+                        font-size: 16px;
+                    }
+
+                    .blog-book-para{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}

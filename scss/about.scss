@@ -1,0 +1,74 @@
+
+.about-structure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 213px;
+
+    .about-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    .about-img{
+        width: 393px;
+        height: 587px;
+    }
+
+    .about-des{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 40px;
+        .about-title{
+            font-family: SegNorm;
+            font-weight: bold;
+        }
+
+        .about-title-found{
+            margin-top: 40px;
+            font-family: SegNorm;
+            font-size: 26px;
+        }
+
+        .about-para{
+            margin-top: 61px;
+            font-family: SegNorm;
+            font-size: 16;
+            font-weight: bold;
+        }
+    }
+}
+}
+
+@media (max-width: 768px){
+    
+   .about-structure{
+
+        .about-wrapper{
+
+            .about-img{
+                height: 343px;
+                width: 208px;
+            }
+
+            .about-des{
+
+                .about-title{
+                    font-size: 20px;
+                }
+
+                .about-title-found{
+                    font-size: 16px
+                }
+
+
+            }
+        }
+   }
+}
+@media (max-width: 390px){
+    
+    
+    
+}
